@@ -1,0 +1,99 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  width: 100%;
+  min-height: 8rem;           /* 128px */
+  padding-inline: 6rem;       /* 96px */
+  display: flex;
+  align-items: center;
+}
+
+/* Menú */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;                  /* 48px */
+}
+
+/* Links */
+.navbar .nav-link {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+
+/* LOGO */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand img {
+  max-width: 16rem;   /* 256px */
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== HERO ===== */
+.hero {
+  min-height: calc(100vh - 8rem);
+  background:
+    url('../assets/images/Close\ up\ on\ justice\ statue.svg') center / cover no-repeat;
+  color: #fff;
+  padding-inline: 6rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+}
+
+.hero-title span {
+  color: #C9A14A;
+}
+
+.hero-btn {
+  background-color: #C2A67D;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.hero-image {
+  max-width: 28rem;
+  width: 100%;
+  height: auto;
+}
+
+/* ===== ABOUT ===== */
+.about {
+  background-color: #EAF1FA;
+  padding: 5rem 6rem;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+}
+
+.about-card-inner {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.about-card-inner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-card-inner span {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  background-color: #00274D;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
